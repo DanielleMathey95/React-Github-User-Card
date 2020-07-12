@@ -27,10 +27,10 @@ export default function Card(props) {
     <Container>
       <h2>{props.user.login}</h2>
       <Img src = {props.user.avatar_url} />
-      <img src="http://ghchart.rshah.org/DanielleMathey95" alt="Daneille Mathey's GitHub chart"></img>
       <a href={props.user.url}><h3>{props.user.url}</h3></a>
       <h4>Followers: {props.user.followers}</h4>
       <h4>Following: {props.user.following}</h4>
+      <img src="http://ghchart.rshah.org/DanielleMathey95" alt="Daneille Mathey's GitHub chart"></img>
     </Container>
   )
 }

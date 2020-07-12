@@ -25,7 +25,7 @@ const Followers = (props) => {
   console.log("dm: Followers.js Followers:", props.follower);
     return (
       <Container>
-        <h2>{props.follower.Login}</h2>
+        <h2>{props.follower.login}</h2>
         <Img src = {props.follower.avatar_url} />
         <a href={props.follower.url}><h3>{props.follower.url}</h3></a>
         <h4>Followers: {props.follower.followers}</h4>
