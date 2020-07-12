@@ -2,6 +2,7 @@ import React from 'react';
 import Card from './Components/Cards';
 import Followers from './Components/Followers';
 import axios from 'axios';
+import './App.css';
 
 class App extends React.Component {
   constructor() {
