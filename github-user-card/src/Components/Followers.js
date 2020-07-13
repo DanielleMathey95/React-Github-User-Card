@@ -27,9 +27,7 @@ const Followers = (props) => {
       <Container>
         <h2>{props.follower.login}</h2>
         <Img src = {props.follower.avatar_url} />
-        <a href={props.follower.url}><h3>{props.follower.url}</h3></a>
-        <h4>Followers: {props.follower.followers}</h4>
-        <h4>Following: {props.follower.following}</h4>
+        <a href={props.follower.url}><h3>{props.follower.html_url}</h3></a>
       </Container>
     )
 }
